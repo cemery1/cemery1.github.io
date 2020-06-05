@@ -1,6 +1,6 @@
 #home {
-    height: calc(100vh - 4rem); /* default */
-    height: calc((var(--vh, 1vh) * 100) - 4rem); /* taken from CSS-tricks to help with mobile full height */
+    height: calc(100vh - 64px); /* default */
+    height: calc((var(--vh, 1vh) * 100) - 64px); /* taken from CSS-tricks to help with mobile full height */
     position: relative;
 }
 
@@ -14,15 +14,15 @@
 
 #home-text {
     font-family: "Dosis", sans-serif;
-    padding-top: 16vh;
+    padding-top: 20vh;
     color: white;
     text-align: center;
 }
 
 #home-name {
-    font-size: 6rem; /* 6 */
+    font-size: 96px;
     font-weight: 200;
-    letter-spacing: 0.25rem;
+    letter-spacing: 4px;
     padding-bottom: 8vh;
 }
 
@@ -30,16 +30,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 1.125rem; /* 1.125 */
-    letter-spacing: 0.0625rem;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 #home-job {
     font-weight: 500;
-    padding: 0 0.125rem;
+    padding: 0 2px;
 }
 
 #home-education {
     font-weight: 200;
-    padding: 0 0.125rem;
+    padding: 0 2px;
+}
+
+@media screen and (max-width: 767px) {
+    #home-name {
+        font-size: 64px;
+    }
+
+    #home-role {
+        font-size: 12px;
+    }
 }
