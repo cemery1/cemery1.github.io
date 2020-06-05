@@ -22,6 +22,8 @@ let sketch = function(p) {
   }
 
   p.draw = function() {
+    if (window.DeviceOrientationEvent) { window.addEventListener('orientationchange', function() { location.reload(); }, false); }
+
     p.noStroke();
 
     for(let i = 0; i < gridColor.length; i++) {
