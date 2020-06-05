@@ -1,5 +1,5 @@
 #home {
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 4em);
     position: relative;
 }
 
@@ -25,26 +25,26 @@
 }
 
 #home-name {
-    font-size: 6rem;
+    font-size: 6em;
     font-weight: 200;
-    letter-spacing: 0.25rem;
-    padding-bottom: 3.5rem;
+    letter-spacing: 0.25em;
+    padding-bottom: 3.5em;
 }
 
 #home-role {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 1.125rem;
-    letter-spacing: 0.0625rem;
+    font-size: 1.125em;
+    letter-spacing: 0.0625em;
 }
 
 #home-job {
     font-weight: 500;
-    padding: 0 0.125rem;
+    padding: 0 0.125em;
 }
 
 #home-education {
     font-weight: 200;
-    padding: 0 0.125rem;
+    padding: 0 0.125em;
 }
