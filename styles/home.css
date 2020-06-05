@@ -1,5 +1,5 @@
 #home {
-    height: 100%;
+    height: calc(100vh - 4rem);
     position: relative;
 }
 
@@ -25,26 +25,26 @@
 }
 
 #home-name {
-    font-size: 2em; /* 6 */
+    font-size: 4rem; /* 6 */
     font-weight: 200;
-    letter-spacing: 0.25em;
-    padding-bottom: 3.5em;
+    letter-spacing: 0.25rem;
+    padding-bottom: 3.5rem;
 }
 
 #home-role {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 0.5em; /* 1.125 */
-    letter-spacing: 0.0625em;
+    font-size: .75rem; /* 1.125 */
+    letter-spacing: 0.0625rem;
 }
 
 #home-job {
     font-weight: 500;
-    padding: 0 0.125em;
+    padding: 0 0.125rem;
 }
 
 #home-education {
     font-weight: 200;
-    padding: 0 0.125em;
+    padding: 0 0.125rem;
 }
