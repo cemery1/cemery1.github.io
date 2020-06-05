@@ -1,5 +1,5 @@
 #navbar-container {
-    height: 64px;
+    height: 4rem;
     width: 100%;
     background: #24454D;
     padding-right: 0;
@@ -19,7 +19,7 @@
 
     font-family: "Dosis", sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 1rem;
     color: white !important;
     padding: 0 24px !important;
 }
@@ -46,12 +46,12 @@
 }
 
 .navbar-toggler {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .navbar-brand {
     height: 100%;
-    padding: 8px 0;
+    padding: 0.5rem 0;
 }
 
 .navbar-brand:hover {
