@@ -1,0 +1,50 @@
+#home {
+    height: calc(100vh - 64px);
+    position: relative;
+}
+
+#home-background {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#home-content {
+    position: relative;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+#home-text {
+    font-family: "Dosis", sans-serif;
+    padding-top: 20vh;
+    color: white;
+    text-align: center;
+}
+
+#home-name {
+    font-size: 96px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    padding-bottom: 56px;
+}
+
+#home-role {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#home-job {
+    font-weight: 500;
+    padding: 0 2px;
+}
+
+#home-education {
+    font-weight: 200;
+    padding: 0 2px;
+}

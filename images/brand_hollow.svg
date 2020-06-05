@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Export5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Export5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#19D3F1" stroke-width="4" x="48" y="42" width="16" height="40"></rect>
+        <rect id="Rectangle" stroke="#19D3F1" stroke-width="4" x="48" y="98" width="16" height="40"></rect>
+        <rect id="Rectangle" stroke="#19D3F1" stroke-width="4" x="76" y="42" width="44" height="16"></rect>
+        <rect id="Rectangle" stroke="#19D3F1" stroke-width="4" x="76" y="122" width="44" height="16"></rect>
+        <rect id="Rectangle" stroke="#DEF2F3" stroke-width="4" x="76" y="82" width="16" height="16"></rect>
+        <path d="M20,2 L20,98 L64,98 L64,82 L36,82 L36,18 L92,18 L92,2 L20,2 Z" id="Rectangle" stroke="#DEF2F3" stroke-width="4"></path>
+    </g>
+</svg>

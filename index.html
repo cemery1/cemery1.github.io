@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Corey Emery</title>
+  <link rel="icon" href="images/fav.svg">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  <!-- p5 and background animation -->
+  <script src="libraries/p5/p5.min.js"></script>
+  <script src="libraries/p5/addons/p5.sound.min.js"></script>
+  <script src="libraries/p5/sketch.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="styles/home.css">
+  <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap" rel="stylesheet">
+
+  <!-- TODO: Add Google Analytics? -->
+</head>
+<body>
+  <div id="portfolio-container" class="container-fluid">
+    <div id="home" class="portfolio-section">
+      <div id="home-background"></div>
+      <div id="home-content" class="row justify-content-center">
+        <div id="home-text" class="col-sm-10">
+          <div id="home-name">Corey Emery</div>
+          <div id="home-role"><span id="home-job">Software Engineer and Design Technologist |</span><span id="home-education">Master of Human-Computer Interaction at Carnegie Mellon</span></div>
+        </div>
+      </div>
+      <nav id="navbar-container" class="navbar navbar-expand navbar-dark">
+          <a class="navbar-brand" href="#">
+            <img id="navbar-brand-image" src="images/brand_hollow.svg" height="100%">
+          </a>
+          <a class="navbar-brand navbar-brand-hover" href="#">
+            <img id="navbar-brand-image" src="images/brand_filled.svg" height="100%">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <!-- COMMENT OUT UNTIL CONTENT CREATED
+              <li class="nav-item">
+                <a class="nav-link" href="#">Design & User Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Software</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Data Science</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              -->
+              <li id="navbar-resume-container" class="nav-item">
+                <a id="navbar-resume" class="nav-link" href="files/corey_emery_resume.pdf" target="_blank">Resume</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>

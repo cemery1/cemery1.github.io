@@ -1,0 +1,70 @@
+#navbar-container {
+    height: 64px;
+    width: 100%;
+    background: #24454D;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-collapse,
+.navbar-nav {
+    height: 100%;
+}
+
+.nav-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: white !important;
+    padding: 0 24px !important;
+}
+
+.nav-link:hover {
+    color: #19D3F1 !important;
+    transition: 0.3s
+}
+
+#navbar-resume-container {
+    background: #1093A7;
+}
+
+#navbar-resume:hover {
+    color: #24454D !important;
+}
+
+.nav-item.active {
+    background: #19D3F1;
+}
+
+.nav-item.active .nav-link {
+    color: #24454D !important;
+}
+
+.navbar-toggler {
+    margin-right: 16px;
+}
+
+.navbar-brand {
+    height: 100%;
+    padding: 8px 0;
+}
+
+.navbar-brand:hover {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.navbar-brand-hover {
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.navbar-brand-hover:hover {
+    opacity: 1;
+}
