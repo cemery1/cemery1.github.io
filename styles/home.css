@@ -45,6 +45,14 @@
 }
 
 @media screen and (max-width: 767px) {
+    #home {
+        height: calc((var(--vh, 1vh) * 100) - 42px); /* taken from CSS-tricks to help with mobile full height */
+    }
+
+    #home-text {
+        padding-top: 16vh;
+    }
+
     #home-name {
         font-size: 64px;
     }

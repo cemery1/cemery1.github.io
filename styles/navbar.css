@@ -64,6 +64,7 @@
 }
 
 .navbar-brand-hover {
+    display: flex;
     position: absolute;
     opacity: 0;
     transition: 0.3s;
@@ -71,4 +72,14 @@
 
 .navbar-brand-hover:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    #navbar-container {
+        height: 42px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
 }
