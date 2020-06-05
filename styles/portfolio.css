@@ -6,3 +6,7 @@
     scroll-behavior: smooth;
     transition: 0.3s;
 }
+
+.row {
+    margin: 0;
+}
