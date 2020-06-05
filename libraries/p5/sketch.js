@@ -6,8 +6,8 @@ let gridColor = [];
 
 let sketch = function(p) {
   p.setup = function() {
-    width = p.windowWidth
-    height = p.windowHeight
+    width = p.windowWidth;
+    height = p.windowHeight;
     let cvn = p.createCanvas(width, height);
 
     for(let i = 0; i*pixel < height; i++) {
@@ -22,6 +22,7 @@ let sketch = function(p) {
   }
 
   p.draw = function() {
+    // added from stackoverflow to allow for screen rotation responsiveness
     if (window.DeviceOrientationEvent) { window.addEventListener('orientationchange', function() { location.reload(); }, false); }
 
     p.noStroke();
@@ -49,9 +50,9 @@ let sketch = function(p) {
   }
 
   p.windowResized = function() {
-    width = p.windowWidth
-    height = p.windowHeight
-    p.resizeCanvas(p.windowWidth, p.windowHeight);
+    width = p.windowWidth;
+    height = p.windowHeight;
+    p.resizeCanvas(width, height);
 
     let newGridColor = [];
     let newTick = [];
