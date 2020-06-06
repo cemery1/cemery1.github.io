@@ -44,10 +44,10 @@
 #home-text {
     font-family: "Dosis", sans-serif;
     font-weight: 200;
-    padding-top: 20vh;
     color: white;
-
     text-align: center;
+
+    padding-top: 20vh;
 }
 
 /* Change Stylings/Size for Mobile Phones */
