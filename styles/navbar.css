@@ -54,6 +54,8 @@
 }
 
 .navbar-brand {
+    display: flex;
+    align-items: center;
     height: 100%;
     padding: 8px 0;
 }
@@ -64,8 +66,6 @@
 }
 
 .navbar-brand-hover {
-    display: flex;
-    align-items: center;
     position: absolute;
     opacity: 0;
     transition: 0.3s;
