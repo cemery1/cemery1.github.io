@@ -1,0 +1,46 @@
+#about-header {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
+
+    padding-bottom: 18px;
+}
+
+#about-image {
+    content: url("../images/photo_collage_web.png");
+}
+
+.about-subtitle {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+
+    padding: 8px 0 4px;
+}
+
+.about-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+
+    padding-bottom: 18px;
+}
+
+/* Change Image for Tablets and Mobile Phones */
+@media screen and (max-width: 991px) {
+    #about-header {
+        padding-top: 8px;
+    }
+
+    #about-image {
+        content: url("../images/photo_collage_tablet.png");
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #about-image {
+        content: url("../images/photo_mobile.png");
+    }
+}

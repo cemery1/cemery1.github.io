@@ -53,6 +53,7 @@
 /* Change Stylings/Size for Mobile Phones */
 @media screen and (max-width: 767px) {
     #home {
+        height: calc(100vh - 42px); /* default */
         height: calc((var(--vh, 1vh) * 100) - 42px); /* taken from CSS-tricks to help with mobile full height */
     }
 

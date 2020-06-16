@@ -1,10 +1,11 @@
 #portfolio-container {
     padding: 0;
+    background: #24454D;
 }
 
 .portfolio-section {
-    scroll-behavior: smooth;
-    transition: 0.5s;
+    padding: 48px 0;
+    color: white;
 }
 
 .row {

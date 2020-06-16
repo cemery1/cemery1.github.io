@@ -8,7 +8,7 @@
   <link rel="icon" href="images/fav.svg">
 
   <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
   <!-- Bootstrap -->
@@ -24,18 +24,20 @@
   <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
   <link rel="stylesheet" type="text/css" href="styles/home.css">
   <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+  <link rel="stylesheet" type="text/css" href="styles/about.css">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
   <!-- Custom JS -->
   <script src="js/resize.js"></script>
+  <script src="js/scroll.js"></script>
 
   <!-- TODO: Add Google Analytics? -->
 </head>
 <body>
   <div id="portfolio-container" class="container-fluid">
-    <div id="home" class="portfolio-section">
+    <div id="home">
       <div id="home-background"></div>
       <div id="home-content" class="row justify-content-center">
         <div id="home-text" class="col-sm-10">
@@ -45,10 +47,10 @@
       </div>
     </div>
     <nav id="navbar-container" class="navbar navbar-expand navbar-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#home">
         <img id="navbar-brand-image" src="images/brand_hollow.svg" height="100%">
       </a>
-      <a class="navbar-brand navbar-brand-hover" href="#">
+      <a class="navbar-brand navbar-brand-hover" href="#home">
         <img id="navbar-brand-image" src="images/brand_filled.svg" height="100%">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,26 +58,47 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <!-- COMMENT OUT UNTIL CONTENT CREATED
-          <li class="nav-item">
-            <a class="nav-link" href="#">Design & User Research</a>
+          <!--
+          <li id="design-link" class="nav-item">
+            <a class="nav-link" href="#design">Design & User Research</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Software</a>
+          <li id="software-link" class="nav-item">
+            <a class="nav-link" href="#software">Software</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Data Science</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li id="data-link" class="nav-item">
+            <a class="nav-link" href="#data">Data Science</a>
           </li>
           -->
+          <li id="about-link" class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
           <li id="navbar-resume-container" class="nav-item">
             <a id="navbar-resume" class="nav-link" href="files/corey_emery_resume.pdf" target="_blank">Resume</a>
           </li>
         </ul>
       </div>
     </nav>
+    <!--
+    <div id="design" class="portfolio-section">Design!</div>
+    <div id="software" class="portfolio-section">Software!</div>
+    <div id="data" class="portfolio-section">Data!</div>
+    -->
+    <div id="about" class="portfolio-section">
+      <div class="row justify-content-center">
+        <div class="col-xl-4 col-lg-5 col-md-8 col-10">
+          <img id="about-image" width="100%">
+        </div>
+        <div class="col-lg-5 col-md-8 col-sm-10">
+          <div id="about-header">Hi, I'm Corey!</div>
+          <div class="about-text">I'm a developer who's passionate about coding, creating, and envisioning ways to use technology to better understand and enhance the human experience. I believe that the digital environment cannot exist in isolation, and strive to make systems that are more accessible, connected, and relevant to our lives.</div>
+          <div class="about-text">My work has exposed me to various industries ranging from finance to education technology, and I've gained experience at all levels of the development stack and at each step of the user-centered design process. This allows me to snythesize knowledge from different domains to enhance a product and develop a clear course of action to successfully execute a vision.</div>
+          <div class="about-subtitle">Awards & Recognition</div>
+          <div class="about-text">At Carnegie Mellon, I was a member of Phi Beta Kappa, an Andrew Carnegie Society Scholar, a  Quantitative Social Science Scholar, and received College and University Honors.</div>
+          <div class="about-subtitle">Outside of Work</div>
+          <div class="about-text">I am a passionate theatergoer, tennis fan, gym enthusiast, and pub trivia night regular. I've taken part in both Booth and Buggy during my time at Carnegie Mellon, and performed on stage as a member of Scotch 'n' Soda Theater.</div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
