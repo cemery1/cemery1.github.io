@@ -1,8 +1,18 @@
+/* transition time */
+.footer-icon,
+.footer-icon-hover  {
+    transition: 0.5s;
+}
+
+#footer-connect {
+    display: flex;
+}
+
 #footer-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    height: 64px;
+    justify-content: space-between;
+    padding: 0 24px 0 4px;
 
     border-top: 2px solid #19D3F1;
 }
@@ -10,19 +20,43 @@
 #footer-copyright {
     font-family: "Dosis", sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
+}
 
-    padding-right: 24px;
+.footer-icon-container {
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.footer-icon {
+    position: relative;
+    padding: 12px;
+    height: inherit;
+}
+
+.footer-icon:hover,
+.footer-icon-hover {
+    opacity: 0;
+}
+
+.footer-icon-hover {
+    position: absolute;
+}
+
+.footer-icon-hover:hover {
+    opacity: 1;
 }
 
 /* Change Stylings/Size for Mobile Phones */
 @media screen and (max-width: 767px) {
     #footer-container {
-        height: 42px;
+        flex-direction: column;
     }
 
     #footer-copyright {
         font-size: 12px;
+        padding-bottom: 8px;
     }
 }
