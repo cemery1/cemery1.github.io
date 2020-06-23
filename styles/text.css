@@ -1,0 +1,93 @@
+/* font family stylings */
+.text-footer,
+.text-inlineHeader,
+.text-inlineSubheader,
+.text-nav,
+.text-subtitle,
+.text-title {
+    font-family: "Dosis", sans-serif;
+}
+
+.text-content {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* font color stylings */
+.text-content,
+.text-footer,
+.text-inlineHeader,
+.text-inlineSubheader,
+.text-subtitle,
+.text-title {
+    color: white;
+}
+
+/* font weight stylings */
+.text-bold,
+.text-inlineHeader,
+.text-inlineSubheader {
+    font-weight: 500;
+}
+
+.text-footer,
+.text-nav,
+.text-subtitle,
+.text-title {
+    font-weight: 200;
+}
+
+.text-content {
+    font-weight: 300;
+}
+
+/* font size stylings */
+.text-content {
+    font-size: 14px;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.text-inlineHeader {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.text-inlineSubheader {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.text-nav {
+    font-size: 16px;
+}
+
+.text-subtitle {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-title {
+    font-size: 96px;
+    letter-spacing: 4px;
+}
+
+/* Change Stylings/Size for Mobile Phones */
+@media screen and (max-width: 767px) {
+    .text-footer {
+        font-size: 12px;
+    }
+
+    .text-nav {
+        font-size: 12px;
+    }
+
+    .text-subtitle {
+        font-size: 14px;
+    }
+
+    .text-title {
+        font-size: 64px;
+    }
+}

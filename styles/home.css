@@ -21,14 +21,7 @@
     padding: 0 2px;
 }
 
-#home-job {
-    font-weight: 500;
-}
-
 #home-name {
-    font-size: 96px;
-    letter-spacing: 4px;
-
     padding-bottom: 8vh;
 }
 
@@ -36,17 +29,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    font-size: 18px;
-    letter-spacing: 1px;
 }
 
 #home-text {
-    font-family: "Dosis", sans-serif;
-    font-weight: 200;
-    color: white;
     text-align: center;
-
     padding-top: 20vh;
 }
 
@@ -55,14 +41,6 @@
     #home {
         height: calc(100vh - 42px); /* default */
         height: calc((var(--vh, 1vh) * 100) - 42px); /* taken from CSS-tricks to help with mobile full height */
-    }
-
-    #home-name {
-        font-size: 64px;
-    }
-
-    #home-role {
-        font-size: 14px;
     }
 
     #home-text {

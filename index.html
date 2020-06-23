@@ -26,6 +26,7 @@
   <link rel="stylesheet" type="text/css" href="styles/navbar.css">
   <link rel="stylesheet" type="text/css" href="styles/about.css">
   <link rel="stylesheet" type="text/css" href="styles/footer.css">
+  <link rel="stylesheet" type="text/css" href="styles/text.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -42,8 +43,8 @@
       <div id="home-background"></div>
       <div id="home-content" class="row justify-content-center">
         <div id="home-text" class="col-sm-10">
-          <div id="home-name">Corey Emery</div>
-          <div id="home-role"><span id="home-job">Software Engineer and Design Technologist |</span><span id="home-education">Master of Human-Computer Interaction at Carnegie Mellon University</span></div>
+          <div id="home-name" class="text-title">Corey Emery</div>
+          <div id="home-role" class="text-subtitle"><span id="home-job" class="text-bold">Software Engineer and Design Technologist |</span><span id="home-education">Master of Human-Computer Interaction at Carnegie Mellon University</span></div>
         </div>
       </div>
     </div>
@@ -51,7 +52,7 @@
       <a class="navbar-brand" href="#home">
         <img src="images/brand_hollow.svg" height="100%">
       </a>
-      <a class="navbar-brand navbar-brand-hover" href="#home">
+      <a class="navbar-brand navbar-brandHover" href="#home">
         <img src="images/brand_filled.svg" height="100%">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,9 +72,9 @@
           </li>
           -->
           <li id="about-link" class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link text-nav" href="#about">About</a>
           </li>
-          <li id="navbar-resume-container" class="nav-item">
+          <li id="navbar-resumeContainer" class="nav-item">
             <a id="navbar-resume" class="nav-link" href="files/corey_emery_resume.pdf" target="_blank">Resume</a>
           </li>
         </ul>
@@ -90,52 +91,52 @@
           <img id="about-image" width="100%">
         </div>
         <div class="col-lg-5 col-md-8 col-sm-10">
-          <div id="about-header">Hi, I'm Corey!</div>
-          <div class="about-text">I'm a developer who's passionate about coding, creating, and envisioning ways to use technology to better understand and enhance the human experience. I believe that the digital environment cannot exist in isolation, and strive to make systems that are more accessible, connected, and relevant to our lives.</div>
-          <div class="about-text">My work has exposed me to various industries ranging from finance to education technology, and I've gained experience at all levels of the development stack and at each step of the user-centered design process. This allows me to snythesize knowledge from different domains to enhance a product and develop a clear course of action to successfully execute a vision.</div>
-          <div class="about-subtitle">Awards & Recognition</div>
-          <div class="about-text">At Carnegie Mellon, I was a member of Phi Beta Kappa, an Andrew Carnegie Society Scholar, a  Quantitative Social Science Scholar, and received College and University Honors.</div>
-          <div class="about-subtitle">Outside of Work</div>
-          <div class="about-text">I am a passionate theatergoer, tennis fan, gym enthusiast, 1st degree black belt, and pub trivia regular. I've taken part in both Booth and Buggy during my time at Carnegie Mellon, and performed on stage as a member of Scotch 'n' Soda Theater.</div>
+          <div id="about-header" class="text-inlineHeader">Hi, I'm Corey!</div>
+          <div class="about-body text-content">I'm a developer who's passionate about coding, creating, and envisioning ways to use technology to better understand and enhance the human experience. I believe that the digital environment cannot exist in isolation, and strive to make systems that are more accessible, connected, and relevant to our lives.</div>
+          <div class="about-body text-content">My work has exposed me to various industries ranging from finance to education technology, and I've gained experience at all levels of the development stack and at each step of the user-centered design process. This allows me to snythesize knowledge from different domains to enhance a product and develop a clear course of action to successfully execute a vision.</div>
+          <div class="about-subtitle text-inlineSubheader">Awards & Recognition</div>
+          <div class="about-body text-content">At Carnegie Mellon, I was a member of Phi Beta Kappa, an Andrew Carnegie Society Scholar, a  Quantitative Social Science Scholar, and received College and University Honors.</div>
+          <div class="about-subtitle text-inlineSubheader">Outside of Work</div>
+          <div class="about-body text-content">I am a passionate theatergoer, tennis fan, gym enthusiast, 1st degree black belt, and pub trivia regular. I've taken part in both Booth and Buggy during my time at Carnegie Mellon, and performed on stage as a member of Scotch 'n' Soda Theater.</div>
         </div>
       </div>
     </div>
     <div id="footer-container">
       <div id="footer-connect">
-        <div class="footer-icon-container">
+        <div class="footer-iconContainer">
           <a class="footer-icon" href="tel:6314563020">
             <img src="images/phone-hollow.svg" height="100%">
           </a>
-          <a class="footer-icon footer-icon-hover" href="tel:6314563020">
+          <a class="footer-icon footer-iconHover" href="tel:6314563020">
             <img src="images/phone-filled.svg" height="100%">
           </a>
         </div>
-        <div class="footer-icon-container">
+        <div class="footer-iconContainer">
           <a class="footer-icon" href="mailto:cemery@andrew.cmu.edu">
             <img src="images/email-hollow.svg" height="100%">
           </a>
-          <a class="footer-icon footer-icon-hover" href="mailto:cemery@andrew.cmu.edu">
+          <a class="footer-icon footer-iconHover" href="mailto:cemery@andrew.cmu.edu">
             <img src="images/email-filled.svg" height="100%">
           </a>
         </div>
-        <div class="footer-icon-container">
+        <div class="footer-iconContainer">
           <a class="footer-icon" href="https://www.linkedin.com/in/corey-emery/" target="_blank">
             <img src="images/linkedin-hollow.svg" height="100%">
           </a>
-          <a class="footer-icon footer-icon-hover" href="https://www.linkedin.com/in/corey-emery/" target="_blank">
+          <a class="footer-icon footer-iconHover" href="https://www.linkedin.com/in/corey-emery/" target="_blank">
             <img src="images/linkedin-filled.svg" height="100%">
           </a>
         </div>
-        <div class="footer-icon-container">
+        <div class="footer-iconContainer">
           <a class="footer-icon" href="https://github.com/cemery1" target="_blank">
             <img src="images/github-hollow.svg" height="100%">
           </a>
-          <a class="footer-icon footer-icon-hover" href="https://github.com/cemery1" target="_blank">
+          <a class="footer-icon footer-iconHover" href="https://github.com/cemery1" target="_blank">
             <img src="images/github-filled.svg" height="100%">
           </a>
         </div>
       </div>
-      <div id="footer-copyright">Designed and Developed by Corey Emery © 2020</div>
+      <div id="footer-copyright" class="text-footer">Designed and Developed by Corey Emery © 2020</div>
     </div>
   </div>
 </body>

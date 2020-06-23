@@ -1,9 +1,4 @@
 #about-header {
-    font-family: "Dosis", sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    letter-spacing: 1px;
-
     padding-bottom: 18px;
 }
 
@@ -12,19 +7,10 @@
 }
 
 .about-subtitle {
-    font-family: "Dosis", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-
     padding: 8px 0 4px;
 }
 
-.about-text {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-
+.about-body {
     padding-bottom: 18px;
 }
 

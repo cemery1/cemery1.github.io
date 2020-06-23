@@ -1,6 +1,6 @@
 /* transition time */
 .navbar-brand,
-.navbar-brand-hover,
+.navbar-brandHover,
 .nav-link,
 .nav-item {
     transition: 0.5s;
@@ -15,15 +15,15 @@
 }
 
 .navbar-brand:hover,
-.navbar-brand-hover {
+.navbar-brandHover {
     opacity: 0;
 }
 
-.navbar-brand-hover {
+.navbar-brandHover {
     position: absolute;
 }
 
-.navbar-brand-hover:hover {
+.navbar-brandHover:hover {
     opacity: 1;
 }
 
@@ -48,7 +48,7 @@
     height: 100%;
 }
 
-#navbar-resume-container {
+#navbar-resumeContainer {
     background: #1093A7;
 }
 
@@ -66,9 +66,6 @@
     display: flex;
     align-items: center;
 
-    font-family: "Dosis", sans-serif;
-    font-weight: 200;
-    font-size: 16px;
     color: white !important;
     padding: 0 24px !important;
 }
@@ -93,9 +90,5 @@
 
     #navbar-container {
         height: 42px;
-    }
-
-    .nav-link {
-        font-size: 12px;
     }
 }
