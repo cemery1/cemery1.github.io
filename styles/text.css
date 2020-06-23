@@ -13,13 +13,16 @@
 }
 
 /* font color stylings */
-.text-content,
 .text-footer,
 .text-inlineHeader,
 .text-inlineSubheader,
 .text-subtitle,
 .text-title {
     color: white;
+}
+
+.text-content {
+    color: #DEF2F3;
 }
 
 /* font weight stylings */
