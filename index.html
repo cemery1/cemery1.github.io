@@ -21,19 +21,20 @@
   <script src="libraries/p5/sketch.js"></script>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
-  <link rel="stylesheet" type="text/css" href="styles/home.css">
-  <link rel="stylesheet" type="text/css" href="styles/navbar.css">
   <link rel="stylesheet" type="text/css" href="styles/about.css">
   <link rel="stylesheet" type="text/css" href="styles/footer.css">
+  <link rel="stylesheet" type="text/css" href="styles/home.css">
+  <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+  <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="styles/section.css">
   <link rel="stylesheet" type="text/css" href="styles/text.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
   <!-- Custom JS -->
+  <script src="js/navbar.js"></script>
   <script src="js/resize.js"></script>
-  <script src="js/scroll.js"></script>
 
   <!-- TODO: Add Google Analytics? -->
 </head>
@@ -55,22 +56,20 @@
       <a class="navbar-brand navbar-brandHover" href="#home">
         <img src="images/brand_filled.svg" height="100%">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <!--
+          <li id="project-link" class="nav-item">
+            <a class="nav-link text-nav" href="#design">Projects</a>
+          </li>
           <li id="design-link" class="nav-item">
-            <a class="nav-link" href="#design">Design & User Research</a>
+            <a class="nav-link text-nav" href="#design">Design & User Research</a>
           </li>
           <li id="software-link" class="nav-item">
-            <a class="nav-link" href="#software">Software</a>
+            <a class="nav-link text-nav" href="#software">Software</a>
           </li>
           <li id="data-link" class="nav-item">
-            <a class="nav-link" href="#data">Data Science</a>
+            <a class="nav-link text-nav" href="#data">Data Science</a>
           </li>
-          -->
           <li id="about-link" class="nav-item">
             <a class="nav-link text-nav" href="#about">About</a>
           </li>
@@ -80,25 +79,54 @@
         </ul>
       </div>
     </nav>
-    <!--
-    <div id="design" class="portfolio-section">Design!</div>
-    <div id="software" class="portfolio-section">Software!</div>
-    <div id="data" class="portfolio-section">Data!</div>
-    -->
-    <div id="about" class="portfolio-section">
-      <div class="row justify-content-center">
-        <div class="col-xl-4 col-lg-5 col-md-8 col-10">
-          <img id="about-image" width="100%">
-        </div>
+    <div id="design" class="section-container row justify-content-center">
+      <div class="section-header text-sectionHeader">Design and User Research</div>
+      <div class="section-projectContainer row justify-content-center">
         <div class="col-lg-5 col-md-8 col-sm-10">
-          <div id="about-header" class="text-inlineHeader">Hi, I'm Corey!</div>
-          <div class="about-body text-content">I'm a developer who's passionate about coding, creating, and envisioning ways to use technology to better understand and enhance the human experience. I believe that the digital environment cannot exist in isolation, and strive to make systems that are more accessible, connected, and relevant to our lives.</div>
-          <div class="about-body text-content">My work has exposed me to various industries ranging from finance to education technology, and I've gained experience at all levels of the development stack and at each step of the user-centered design process. This allows me to snythesize knowledge from different domains to enhance a product and develop a clear course of action to successfully execute a vision.</div>
-          <div class="about-subtitle text-inlineSubheader">Awards & Recognition</div>
-          <div class="about-body text-content">At Carnegie Mellon, I was a member of Phi Beta Kappa, an Andrew Carnegie Society Scholar, a  Quantitative Social Science Scholar, and received College and University Honors.</div>
-          <div class="about-subtitle text-inlineSubheader">Outside of Work</div>
-          <div class="about-body text-content">I am a passionate theatergoer, tennis fan, gym enthusiast, 1st degree black belt, and pub trivia regular. I've taken part in both Booth and Buggy at Carnegie Mellon, and performed on stage as a member of Scotch 'n' Soda Theater.</div>
+          <img src="images/temp.png" width="100%">
         </div>
+        <div class="col-lg-4 col-md-8 col-sm-10">
+          <div class="section-projectTitle text-inlineSubheader">Section Under Construction</div>
+          <div class="text-content">More coming soon!</div>
+        </div>
+      </div>
+    </div>
+    <div id="software" class="section-container row justify-content-center">
+      <div class="section-header text-sectionHeader">Software</div>
+      <div class="section-projectContainer row justify-content-center">
+        <div class="col-lg-5 col-md-8 col-sm-10">
+          <img src="images/temp.png" width="100%">
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-10">
+          <div class="section-projectTitle text-inlineSubheader">Section Under Construction</div>
+          <div class="text-content">More coming soon!</div>
+        </div>
+      </div>
+    </div>
+    <div id="data" class="section-container row justify-content-center">
+      <div class="section-header text-sectionHeader">Data Science</div>
+      <div class="section-projectContainer row justify-content-center">
+        <div class="col-lg-5 col-md-8 col-sm-10">
+          <img src="images/temp.png" width="100%">
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-10">
+          <div class="section-projectTitle text-inlineSubheader">Section Under Construction</div>
+          <div class="text-content">More coming soon!</div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="section-container row justify-content-center">
+      <div class="col-xl-4 col-lg-5 col-md-8 col-10">
+        <img id="about-image" width="100%">
+      </div>
+      <div class="col-lg-5 col-md-8 col-sm-10">
+        <div id="about-header" class="text-inlineHeader">Hi, I'm Corey!</div>
+        <div class="about-body text-content">I'm a developer who's passionate about coding, creating, and envisioning ways to use technology to better understand and enhance the human experience. I believe that the digital environment cannot exist in isolation, and strive to make systems that are more accessible, connected, and relevant to our lives.</div>
+        <div class="about-body text-content">My work has exposed me to various industries ranging from finance to education technology, and I've gained experience at all levels of the development stack and at each step of the user-centered design process. This allows me to snythesize knowledge from different domains to enhance a product and develop a clear course of action to successfully execute a vision.</div>
+        <div class="about-subtitle text-inlineSubheader">Awards & Recognition</div>
+        <div class="about-body text-content">At Carnegie Mellon, I was a member of Phi Beta Kappa, an Andrew Carnegie Society Scholar, a  Quantitative Social Science Scholar, and received College and University Honors.</div>
+        <div class="about-subtitle text-inlineSubheader">Outside of Work</div>
+        <div class="about-body text-content">I am a passionate theatergoer, tennis fan, gym enthusiast, 1st degree black belt, and pub trivia regular. I've taken part in both Booth and Buggy at Carnegie Mellon, and performed on stage as a member of Scotch 'n' Soda Theater.</div>
       </div>
     </div>
     <div id="footer-container">

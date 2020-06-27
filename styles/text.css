@@ -3,6 +3,7 @@
 .text-inlineHeader,
 .text-inlineSubheader,
 .text-nav,
+.text-sectionHeader,
 .text-subtitle,
 .text-title {
     font-family: "Dosis", sans-serif;
@@ -16,6 +17,7 @@
 .text-footer,
 .text-inlineHeader,
 .text-inlineSubheader,
+.text-sectionHeader,
 .text-subtitle,
 .text-title {
     color: white;
@@ -28,7 +30,8 @@
 /* font weight stylings */
 .text-bold,
 .text-inlineHeader,
-.text-inlineSubheader {
+.text-inlineSubheader,
+.text-sectionHeader {
     font-weight: 500;
 }
 
@@ -52,7 +55,8 @@
     font-size: 14px;
 }
 
-.text-inlineHeader {
+.text-inlineHeader,
+.text-sectionHeader {
     font-size: 40px;
     letter-spacing: 1px;
 }

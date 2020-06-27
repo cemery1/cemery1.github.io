@@ -1,0 +1,27 @@
+.section-container {
+    padding: 48px 0 36px;
+}
+
+.section-header {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.section-projectContainer {
+    padding-bottom: 16px;
+}
+
+.section-projectContainer:last-child {
+    padding-bottom: 0;
+}
+
+.section-projectTitle {
+    padding: 10px 0 4px;
+}
+
+/* Change Stylings/Size for Tablets and Mobile Phones */
+@media screen and (max-width: 991px) {
+    .section-projectContainer {
+        padding-bottom: 40px;
+    }
+}
