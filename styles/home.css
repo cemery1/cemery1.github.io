@@ -39,8 +39,8 @@
 /* Change Stylings/Size for Mobile Phones */
 @media screen and (max-width: 767px) {
     #home {
-        height: calc(100vh - 44px); /* default */
-        height: calc((var(--vh, 1vh) * 100) - 44px); /* taken from CSS-tricks to help with mobile full height */
+        height: calc(100vh - 48px); /* default */
+        height: calc((var(--vh, 1vh) * 100) - 48px); /* taken from CSS-tricks to help with mobile full height */
     }
 
     #home-text {
