@@ -8,8 +8,17 @@
     line-height: 52px;
 }
 
+.section-image {
+    transition: 0.5s;
+}
+
+.section-image:hover {
+    transform: translate(5px, -5px);
+    box-shadow: -6px 6px 4px;
+}
+
 .section-projectContainer {
-    padding-bottom: 16px;
+    padding-bottom: 20px;
 }
 
 .section-projectContainer:last-child {

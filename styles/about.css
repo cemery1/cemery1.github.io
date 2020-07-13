@@ -3,7 +3,7 @@
 }
 
 #about-image {
-    content: url("../images/photo_collage_web.png");
+    content: url("../images/about/photo_collage_web.png");
 }
 
 .about-subtitle {
@@ -21,12 +21,12 @@
     }
 
     #about-image {
-        content: url("../images/photo_collage_tablet.png");
+        content: url("../images/about/photo_collage_tablet.png");
     }
 }
 
 @media screen and (max-width: 575px) {
     #about-image {
-        content: url("../images/photo_mobile.png");
+        content: url("../images/about/photo_mobile.png");
     }
 }
