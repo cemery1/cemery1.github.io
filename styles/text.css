@@ -59,6 +59,7 @@
 .text-sectionHeader {
     font-size: 40px;
     letter-spacing: 1px;
+    line-height: 52px;
 }
 
 .text-inlineSubheader {
