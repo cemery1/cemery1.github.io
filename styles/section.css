@@ -11,17 +11,17 @@
     transition: 0.5s;
 }
 
-.section-image:hover {
-    transform: translate(5px, -5px);
-    box-shadow: -6px 6px 4px #212529;
-}
-
 .section-projectContainer {
     padding-bottom: 20px;
 }
 
 .section-projectContainer:last-child {
     padding-bottom: 0;
+}
+
+.section-projectContainer:hover div .section-image {
+    transform: translate(5px, -5px);
+    box-shadow: -6px 6px 4px #212529;
 }
 
 .section-projectTitle {
