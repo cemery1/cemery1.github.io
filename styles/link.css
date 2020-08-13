@@ -1,0 +1,24 @@
+.link-button {
+    background: #19D3F1;
+    transition: 0.5s;
+}
+
+.link-button:focus {
+    box-shadow: none;
+}
+
+.link-button:hover {
+    transform: translate(5px, -5px);
+    box-shadow: -6px 6px 4px #212529;
+
+    color: #24454D;
+}
+
+.link-container {
+    padding-left: 0;
+    padding-top: 4px;
+}
+
+.link-section {
+    padding-top: 8px;
+}

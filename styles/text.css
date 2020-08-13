@@ -9,7 +9,8 @@
     font-family: "Dosis", sans-serif;
 }
 
-.text-content {
+.text-content,
+.text-link {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -27,6 +28,10 @@
     color: #DEF2F3;
 }
 
+.text-link {
+    color: #24454D;
+}
+
 /* font weight stylings */
 .text-bold,
 .text-inlineHeader,
@@ -42,12 +47,14 @@
     font-weight: 200;
 }
 
-.text-content {
+.text-content,
+.text-link {
     font-weight: 300;
 }
 
 /* font size stylings */
-.text-content {
+.text-content,
+.text-link {
     font-size: 14px;
 }
 
