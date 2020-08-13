@@ -2,6 +2,10 @@ a {
     text-decoration: none !important;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 #portfolio-container {
     padding: 0;
     background: #24454D;
