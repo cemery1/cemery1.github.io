@@ -1,4 +1,10 @@
 .link-button {
+    cursor: pointer;
+
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+
     background: #19D3F1;
     transition: 0.5s;
 }
@@ -12,6 +18,7 @@
     box-shadow: -6px 6px 4px #212529;
 
     color: #24454D;
+    text-decoration: none;
 }
 
 .link-container {
